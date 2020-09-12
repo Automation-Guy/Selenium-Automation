@@ -9,15 +9,15 @@ import static org.hamcrest.Matchers.*;
 
 public class TC04 {
 	
-	public static String basicURL;
+	//public static String basicURL;
 	
 	@Test(priority=1)
 	public void getStatusCode() {
 		
-                        given()
-				       .when()
-				           .get("https://www.google.com")
-				       .then()
+                       given().
+				       when()
+				           .get("https://www.google.com").
+				       then()
 				          .assertThat()
 				          .statusCode(200);
                        
@@ -38,7 +38,7 @@ public class TC04 {
 	@Test
 	public void getPOSTMethod() {
 		
-		given()
+		 given()
 		.header("Accept","application/json")
 		.body("order placed for purchasing the pet")
 		.when()

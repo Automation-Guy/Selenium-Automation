@@ -9,7 +9,7 @@ public class swapNum {
 		int b = 6;
 		int temp = a;
 		
-		System.out.println("value of a is before Swapping: "+ a);
+		/*System.out.println("value of a is before Swapping: "+ a);
 		System.out.println("value of b is before Swapping: "+ b);
 		
 		a = b;
@@ -29,7 +29,14 @@ public class swapNum {
 		a = b-a; // 5+1=6
 		
 		System.out.println("value of a is After Swapping: "+ a);
-		System.out.println("value of b is After Swapping: "+ b);
+		System.out.println("value of b is After Swapping: "+ b);*/
+		
+		a = a^b;
+		b = a^b;
+		a = b^a;
+		
+		System.out.println(a);
+		System.out.println(b);
 	}
 
 }

@@ -1,4 +1,4 @@
-package InterviewPro;
+package IMPrograms;
 
 import groovy.lang.Singleton;
 
@@ -29,7 +29,7 @@ public class SingletonDesignConcept {
 		
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		
 		SingletonDesignConcept x= SingletonDesignConcept.getInstance();
 		SingletonDesignConcept y= SingletonDesignConcept.getInstance();

@@ -1,4 +1,4 @@
-package InterviewPro;
+package IMPrograms;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

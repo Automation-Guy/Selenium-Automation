@@ -3,13 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumBasics.AllSeleniumConcepts">
+      <class name="SeleniumBasics.Selenium_Coordinates">
         <methods>
-          <include name="newWindow"/>
-          <include name="quit"/>
-          <include name="init"/>
+          <include name="Chase"/>
         </methods>
-      </class> <!-- SeleniumBasics.AllSeleniumConcepts -->
+      </class> <!-- SeleniumBasics.Selenium_Coordinates -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

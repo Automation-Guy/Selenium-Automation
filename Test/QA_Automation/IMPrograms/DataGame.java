@@ -1,4 +1,4 @@
-package InterviewPro;
+package IMPrograms;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package InterviewPro;
+package IMPrograms;
 
 public class Duplicate {
 	

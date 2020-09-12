@@ -1,4 +1,4 @@
-package InterviewPro;
+package IMPrograms;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package InterviewPro;
+package IMPrograms;
 
 /**
  * @author mknpt
